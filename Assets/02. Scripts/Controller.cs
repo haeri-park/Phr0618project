@@ -8,10 +8,12 @@ public class Controller : MonoBehaviour
     private Camera arCamera;
     private RaycastHit hit;
 
+
     // Start is called before the first frame update
     void Start()
     {
         arCamera = Camera.main;
+
     }
 
     // Update is called once per frame
@@ -41,7 +43,8 @@ public class Controller : MonoBehaviour
         && Physics.Raycast(ray, out hit, 10.0f, 1<<8 ))
         {
             hit.collider.GetComponent<Renderer>().material.color = Color.red;
-            //Debug.Log($"Position x={pos.x}, y={pos.y}");
+            //Debug.Log($"Position x={pos.x}, y={pos.y}");   
+
         }
 
         //화살표 입력값

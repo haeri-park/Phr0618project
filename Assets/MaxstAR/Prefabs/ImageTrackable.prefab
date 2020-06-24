@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000012111049580}
   - component: {fileID: 23000012732209158}
   - component: {fileID: 33000011061662938}
-  - component: {fileID: 114000012931503730}
+  - component: {fileID: 4820679559839998438}
   m_Layer: 0
   m_Name: ImageTrackable
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012701206372}
   m_Mesh: {fileID: 0}
---- !u!114 &114000012931503730
+--- !u!114 &4820679559839998438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,11 +93,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storageType: 0
-  trackerDataFileObject: {fileID: 102900000, guid: 6162961091be9024fbef297ebd8a96fb,
-    type: 3}
-  trackerDataFileName: MaxstAR/Sample/Bricks.2dmap
-  trackableId: 2F414A12CC7241759B6EEA602D4D065E
-  trackableName: Bricks
-  textureDir: Sample
+  trackerDataFileObject: {fileID: 0}
+  trackerDataFileName: 
+  trackableId: 
+  trackableName: 
+  textureDir: 
   targetWidth: 0
   targetHeight: 0
